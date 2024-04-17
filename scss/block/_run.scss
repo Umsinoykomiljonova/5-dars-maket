@@ -1,0 +1,64 @@
+.run__list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  height: 280px;
+}
+.run__div{
+  border-radius: 12px;
+  background: rgb(255, 255, 255);
+}
+.run__img{
+  width: 144px;
+height: 144px;
+}
+.run__img1{
+  width: 120px;
+  height:19.77px;
+  margin-left: 12px;
+}
+.run__title{
+  color: rgb(54, 56, 83);
+  font-family: Rubik;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.run__stron{
+  color: rgb(54, 56, 83);
+font-family: Rubik;
+font-size: 15px;
+font-weight: 500;
+line-height: 18px;
+}
+.run__btn{
+  color: rgb(255, 255, 255);
+font-family: Rubik;
+font-size: 15px;
+font-weight: 400;
+line-height: 18px;
+border: none;
+border-radius: 2px;
+padding: 6px 16px;
+background: rgb(255, 122, 80);
+}
+
+
+
+@media only screen and (max-width:864px) {
+  .run__item{
+    max-width: 785px;
+  }
+}
+@media only screen and (max-width:785px) {
+  .run__list{
+    max-width: 774px;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width:774px) {
+  .run__item{
+    margin-bottom: 10px;
+  }
+}
