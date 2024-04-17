@@ -1,0 +1,98 @@
+.main__title{
+  font-family: Rubik;
+font-size: 66px;
+font-weight: 500;
+line-height: 78px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+}
+.title{
+  font-family: Rubik;
+  font-size: 66px;
+  font-weight: 500;
+  line-height: 78px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  color: rgb(255, 104, 56);
+}
+.main__text{
+  color: rgb(54, 56, 83);
+font-family: Rubik;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+margin-bottom: 20px;
+}
+.main__btn{
+  color: rgb(255, 255, 255);
+font-family: Rubik;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+border: none;
+padding: 6px 12px;
+border-radius: 5px;
+box-shadow: 0px 22px 40px 0px rgba(255, 104, 56, 0.19);
+background-color: rgb(255, 122, 80);
+}
+.main__btn1{
+  color: rgb(54, 56, 83);
+font-family: Rubik;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+text-decoration-line: underline;
+}
+.main__img{
+  max-width: 700px;
+}
+.main__section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+
+
+@media only screen and (max-width:820px) {
+  .main__section{
+    max-width: 752px;
+  }
+}
+@media only screen and (max-width:720px) {
+  .main__section{
+    max-width: 665px;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width:660px) {
+  .main__section{
+    max-width: 440px;
+  }
+  .main__title{
+    font-size: 45px;
+  }
+  .title{
+    font-size: 45px;
+  }
+  .main__text{
+    font-size: 16px;
+  }
+  .main__btn{
+    font-size: 16px;
+  }
+  .btn{
+    font-size: 16px;
+  }
+}
