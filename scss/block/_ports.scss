@@ -1,0 +1,58 @@
+.ports__list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.ports__title{
+  font-family: Rubik;
+font-size: 36px;
+font-weight: 500;
+line-height: 43px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+margin-top: 30px;
+}
+.ports__btn{
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.12);
+background: rgb(255, 122, 80);
+padding: 6px 24px;
+display: flex;
+align-items: center;
+border: none;
+gap: 6px;
+}
+.title1{
+  color: rgb(255, 255, 255);
+font-family: Rubik;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+
+
+
+
+
+@media only screen and (max-width:864px) {
+  .ports__item{
+    max-width: 785px;
+  }
+}
+@media only screen and (max-width:785px) {
+  .ports__list{
+    max-width:774px ;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width:774px) {
+  .ports__item{
+    margin-bottom: 10px;
+  }
+}
